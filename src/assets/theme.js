@@ -1,7 +1,12 @@
 export const theme = {
   colors: {
-    primary: '#F04E23', // Laranja FURIA
-    background: '#1C2526', // Preto FURIA
-    text: '#FFFFFF' // Branco
+    background: '#1C2526',
+    primary: '#F04E23',
+    text: '#FFFFFF',
+    secondary: '#2A3435'
+  },
+  fonts: {
+    title: 'Montserrat, sans-serif',
+    body: 'Roboto, sans-serif'
   }
 };
