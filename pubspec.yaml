@@ -1,0 +1,62 @@
+name: furia_challenges
+description: Projeto integrado para os desafios técnicos da FURIA.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  
+  # Firebase
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.4
+  firebase_storage: ^11.2.5
+  firebase_messaging: ^14.6.5
+  
+  # Estado e DI
+  flutter_riverpod: ^2.3.6
+  
+  # Navegação
+  go_router: ^10.0.0
+  
+  # Rede e API
+  dio: ^5.3.0
+  http: ^1.1.0
+  
+  # Armazenamento local
+  shared_preferences: ^2.2.0
+  flutter_secure_storage: ^8.0.0
+  
+  # UI
+  google_fonts: ^5.1.0
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+  
+  # Câmera e ML
+  camera: ^0.10.5+2
+  google_ml_kit: ^0.16.2
+  image_picker: ^1.0.1
+  
+  # Utilidades
+  intl: ^0.18.1
+  url_launcher: ^6.1.12
+  path_provider: ^2.1.0
+  uuid: ^3.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
